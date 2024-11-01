@@ -1,0 +1,59 @@
+*::selection {
+  color: white;
+  background-color: #ff5f00;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+
+input:-webkit-autofill::first-line,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+  border-radius: 4px;
+  font-size: 16px;
+}
+select:-webkit-autofill {
+  border-radius: 4px;
+}
+
+[list]::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+.shimmer-animation {
+  @apply overflow-hidden relative before:absolute before:inset-0 before:-translate-x-full before:animate-shimmer before:border-t before:border-slate-200 before:bg-gradient-to-r before:from-transparent before:via-slate-200 before:to-transparent;
+}
+

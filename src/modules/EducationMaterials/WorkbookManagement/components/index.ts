@@ -1,0 +1,4 @@
+import WorkbookManagementViewFileModal from "modules/EducationMaterials/WorkbookManagement/components/WorkbookManagementViewFileModal";
+import WorkbookManagementField from "modules/EducationMaterials/WorkbookManagement/components/WorkbookManagementField";
+
+export { WorkbookManagementField, WorkbookManagementViewFileModal };

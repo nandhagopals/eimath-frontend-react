@@ -1,0 +1,1 @@
+export * from  "modules/Accounts/MasterFranchiseePrivilege/Pages/MasterFranchiseePrivilege";
